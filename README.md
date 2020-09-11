@@ -48,11 +48,24 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+SQL (pronounced "ess-que-el") stands for Structured Query Language. SQL is used to communicate with a database.
+
+a database structured to recognize relations among stored items of information.
+
 2. Why do tables need a `primary key`?
+
+because it ensures row-level accessibility.The values that compose a primary key column are unique.
+
 
 3. What is the name given to a table column that references the primary key on another table.
 
+foreign key
+
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+at least 3 tables the 3rd tabel with have the first two tables primery keys to connect the tables together.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
