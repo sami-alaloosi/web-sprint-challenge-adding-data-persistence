@@ -1,0 +1,31 @@
+{
+  "name": "node-db-challenge",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "objection": "^2.2.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "back": "knex migrate:rollback",
+    "next": "knex migrate:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/node-db-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/node-db-challenge#readme"
+}
